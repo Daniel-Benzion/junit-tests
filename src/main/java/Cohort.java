@@ -24,4 +24,8 @@ public class Cohort {
     public List<Student> getStudents() {
         return students;
     }
+
+    public void clearCohort() {
+        this.students.clear();
+    }
 }
